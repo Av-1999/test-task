@@ -3,7 +3,7 @@ import { Button } from "../components/Button";
 
 function Home() {
   return (
-    <div className="pl-30 pt-30 text-white">
+    <div className="px-30 pt-30 text-white">
       <h2 className="text-gray-500 text-3xl font-semibold tracking-widest">
         MOVIE
       </h2>

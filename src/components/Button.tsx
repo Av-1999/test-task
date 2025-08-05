@@ -11,7 +11,8 @@ export const Button = (props: IButton) => {
 
   return (
     <button className={cn(
-      "p-5 min-w-[220px] text-3xl font-bold border-none bg-white text-black rounded-full",
+      "p-5 min-w-[220px] text-3xl font-bold border-none bg-white text-black rounded-full cursor-pointer",
+      "hover:opacity-80 transition-all duration-200",
       mode === 'dark' && "text-white bg-gradient-to-r from-[#00b7ff] to-[#0040ff]",
       className)} {...rest}>
       {text}
