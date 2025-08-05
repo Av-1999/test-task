@@ -43,7 +43,7 @@ export const SideMenu = () => {
       className={cn(
         "absolute group left-0 top-0 h-full w-[100px] bg-black shadow-2xl pt-30",
         "hover:w-[300px] hover:pl-[40px] transition-all duration-200",
-        "flex flex-col hover:items-start items-center shadow-black shadow-2xl/30"
+        "flex flex-col hover:items-start items-center"
       )}
     >
       <div className="p-4 hidden group-hover:flex w-full relative -top-10 items-center gap-4">
